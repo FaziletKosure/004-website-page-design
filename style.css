@@ -4,6 +4,11 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
+body .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
 header {
   background: #35424a;
@@ -136,6 +141,34 @@ header .navbar ul .home a {
   font-size: 17px;
   line-height: 26px;
   font-weight: 700;
+}
+
+#main .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+#main .container article#main-col {
+  width: 65%;
+}
+#main .container article#main-col ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+#main .container aside#sidebar {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+#main .dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer {

@@ -1,0 +1,30 @@
+#main {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    // margin: 0 20px 0;
+    article#main-col {
+      width: 65%;
+      ul#services li {
+        list-style: none;
+        padding: 20px;
+        border: #cccccc solid 1px;
+        margin-bottom: 5px;
+        background: #e6e6e6;
+      }
+    }
+    aside#sidebar {
+      width: 30%;
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+  }
+  .dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
