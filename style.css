@@ -26,6 +26,7 @@ header .navbar {
 }
 header .navbar #brand .logo img {
   border-radius: 10px;
+  margin-right: 5px;
 }
 header .navbar #brand span.highlight {
   color: #a9508b;
@@ -150,6 +151,7 @@ header .navbar ul .home a {
 }
 #main .container article#main-col {
   width: 65%;
+  align-items: center;
 }
 #main .container article#main-col ul#services li {
   list-style: none;
@@ -167,8 +169,21 @@ header .navbar ul .home a {
   padding: 15px;
   background: #35424a;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 53px;
   margin-bottom: 10px;
+}
+#main .dark .quote input,
+#main .dark .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+#main .dark .quote .btn_1 {
+  height: 38px;
+  background: #a9508b;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
 }
 
 footer {
@@ -178,6 +193,32 @@ footer {
   background-color: #fffaf0;
   text-align: center;
   border-top: #a9508b 3px solid;
+}
+
+@media (max-width: 865px) {
+  .navbar {
+    width: 60% !important;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+  .navbar nav {
+    margin-top: -17px !important;
+  }
+
+  div.container {
+    flex-direction: column;
+  }
+
+  #main .container {
+    align-items: center;
+  }
+  #main aside#sidebar {
+    width: 66% !important;
+    margin-left: 0 !important;
+  }
+  #main aside#sidebar .dark {
+    margin-top: 25px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,7 @@
     // margin: 0 20px 0;
     article#main-col {
       width: 65%;
+      align-items: center;
       ul#services li {
         list-style: none;
         padding: 20px;
@@ -24,7 +25,20 @@
     padding: 15px;
     background: #35424a;
     color: #ffffff;
-    margin-top: 10px;
+    margin-top: 53px;
     margin-bottom: 10px;
+    .quote input,
+    .quote textarea {
+      width: 90%;
+      padding: 5px;
+    }
+    .quote .btn_1 {
+      height: 38px;
+      background: #a9508b;
+      border: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #ffffff;
+    }
   }
 }

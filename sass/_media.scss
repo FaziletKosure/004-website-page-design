@@ -1,5 +1,26 @@
-#main {
-  .container {
-    display: flex;
+@media (max-width: 865px) {
+  .navbar {
+    width: 60% !important;
+    flex-direction: column;
+    justify-content: center !important;
+    nav {
+      margin-top: -17px !important;
+    }
+  }
+  div.container {
+    flex-direction: column;
+  }
+  #main {
+    .container {
+      align-items: center;
+    }
+    aside#sidebar {
+      width: 66% !important;
+
+      margin-left: 0 !important;
+      .dark {
+        margin-top: 25px !important;
+      }
+    }
   }
 }
