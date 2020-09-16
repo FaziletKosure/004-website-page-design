@@ -50,3 +50,29 @@
     }
   }
 }
+@media (max-width: 425px) {
+  body {
+    font: 10px/1 Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    #brand {
+      h1 {
+        font-size: 25px;
+      }
+      .logo {
+        img {
+          width: 45px !important;
+        }
+      }
+    }
+  }
+  #newsletter {
+    div.container {
+      form {
+        input[type="email"] {
+          width: 225px;
+        }
+      }
+    }
+  }
+}

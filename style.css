@@ -9,6 +9,9 @@ body .container {
   margin: auto;
   overflow: hidden;
 }
+body ul {
+  padding: 0;
+}
 
 header {
   background: #35424a;
@@ -23,8 +26,10 @@ header .navbar {
   overflow: hidden;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 header .navbar #brand .logo img {
+  width: 50px;
   border-radius: 10px;
   margin-right: 5px;
 }
@@ -79,13 +84,13 @@ header .navbar ul .home a {
 }
 #showcase .container h1 {
   margin-top: 0;
-  font-size: 55px;
+  font-size: 3em;
   margin-bottom: 10px;
   line-height: 82px;
   font-weight: 700;
 }
 #showcase .container p {
-  font-size: 20px;
+  font-size: 1.5em;
   line-height: 30px;
   margin: 20px 30px;
   text-align: center;
@@ -241,6 +246,22 @@ footer {
   }
   #boxes .container .box img {
     width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    font: 10px/1 Arial, Helvetica, sans-serif;
+  }
+
+  .navbar #brand h1 {
+    font-size: 25px;
+  }
+  .navbar #brand .logo img {
+    width: 45px !important;
+  }
+
+  #newsletter div.container form input[type=email] {
+    width: 225px;
   }
 }
 

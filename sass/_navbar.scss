@@ -11,9 +11,11 @@ header {
     overflow: hidden;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     #brand {
       .logo {
         img {
+          width: 50px;
           border-radius: 10px;
           margin-right: 5px;
         }
