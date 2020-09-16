@@ -9,6 +9,7 @@
     align-items: center;
     form {
       margin-top: 15px;
+
       input[type="email"] {
         padding: 4px;
         height: 25px;
@@ -21,6 +22,7 @@
         padding-left: 20px;
         padding-right: 20px;
         color: #ffffff;
+        width: 100px;
       }
     }
   }

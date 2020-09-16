@@ -52,7 +52,7 @@
 }
 @media (max-width: 425px) {
   body {
-    font: 10px/1 Arial, Helvetica, sans-serif;
+    // font: 15px/1 Arial, Helvetica, sans-serif;
   }
   .navbar {
     #brand {
@@ -70,7 +70,7 @@
     div.container {
       form {
         input[type="email"] {
-          width: 225px;
+          width: 213px;
         }
       }
     }
