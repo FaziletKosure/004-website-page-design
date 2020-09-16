@@ -1,11 +1,22 @@
 @media (max-width: 865px) {
+  body {
+    .container {
+      width: 100%;
+    }
+  }
   .navbar {
-    width: 60% !important;
+    width: 80% !important;
     flex-direction: column;
     justify-content: center !important;
+
     nav {
       margin-top: -17px !important;
     }
+  }
+  #boxes .container {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
   div.container {
     flex-direction: column;
@@ -20,6 +31,21 @@
       margin-left: 0 !important;
       .dark {
         margin-top: 25px !important;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  header {
+    .navbar {
+      width: 100% !important;
+    }
+  }
+  #boxes .container {
+    grid-template-columns: 1fr;
+    .box {
+      img {
+        width: 150px;
       }
     }
   }

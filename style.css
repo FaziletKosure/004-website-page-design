@@ -128,6 +128,7 @@ header .navbar ul .home a {
   grid-template-rows: 1fr;
   padding-left: 100px;
   padding-right: 100px;
+  justify-items: center;
 }
 #boxes .box {
   text-align: center;
@@ -196,13 +197,23 @@ footer {
 }
 
 @media (max-width: 865px) {
+  body .container {
+    width: 100%;
+  }
+
   .navbar {
-    width: 60% !important;
+    width: 80% !important;
     flex-direction: column;
     justify-content: center !important;
   }
   .navbar nav {
     margin-top: -17px !important;
+  }
+
+  #boxes .container {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 
   div.container {
@@ -218,6 +229,18 @@ footer {
   }
   #main aside#sidebar .dark {
     margin-top: 25px !important;
+  }
+}
+@media (max-width: 600px) {
+  header .navbar {
+    width: 100% !important;
+  }
+
+  #boxes .container {
+    grid-template-columns: 1fr;
+  }
+  #boxes .container .box img {
+    width: 150px;
   }
 }
 
